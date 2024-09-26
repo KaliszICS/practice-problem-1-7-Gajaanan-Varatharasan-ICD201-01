@@ -3,21 +3,29 @@
 def q1():
   #Write code here
   print(bool("Hello"))
+
+
 def q2():
   #Write code here
   number=eval(input("Enter number"))
   bool=5<number
   print(bool)
+
+
 def q3():
   #Write code here
   value=input("Enter a")
   bool='a'==value
   print(bool)
+
+
 def q4():
   #Write code here
   word=input("Enter a word")
   bool=(word<"google")
   print(bool)
+
+  
 def q5():
   #Write code here
   number1=eval(input("Enter a number"))
