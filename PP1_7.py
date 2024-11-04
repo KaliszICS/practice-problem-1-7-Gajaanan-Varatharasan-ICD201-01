@@ -1,37 +1,33 @@
-
-
 def q1():
-  #Write code here
-  print(bool("Hello"))
-
+  bool = True
+  print (bool)
 
 def q2():
-  #Write code here
-  number=eval(input("Enter number"))
-  bool=5<number
+  let = input ("Input an integer: ")
+  bool = ("5" < let)
   print(bool)
+ 
 
 
 def q3():
-  #Write code here
-  value=input("Enter a")
-  bool='a'==value
-  print(bool)
+  wordinput = input ("Input the letter a: ")
+  boolinput = (wordinput == "a")
+  print (boolinput)
 
 
 def q4():
-  #Write code here
-  word=input("Enter a word")
-  bool=(word<"google")
-  print(bool)
+  googleinput = input ("Input a word earlier in the dictionary than google: ")
+  boolinput = (googleinput < "google")
+  print (boolinput)
 
-  
 def q5():
-  #Write code here
-  number1=eval(input("Enter a number"))
-  number2=eval(input("Enter another number"))
-  bool1=40<(number1*number2)
-  print(f"Your numbers multiplied together are greater than 40: {bool1}")
+  integer1 = int(input ("Input an integer: "))
+  integer2 = int(input ("Input another integer: "))
+  number = str(stephenli * ansonzhu)
+  bool4 = (ohio > "40")
+  words = (f"Your numbers multiplied together are greater than 40: {bool4}")
+  print (words)
+
 #Do edit the code below
 #Comment the lines below when running your tests
 
