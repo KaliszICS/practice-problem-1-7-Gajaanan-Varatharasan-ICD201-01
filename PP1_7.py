@@ -23,8 +23,8 @@ def q4():
 def q5():
   integer1 = int(input ("Input an integer: "))
   integer2 = int(input ("Input another integer: "))
-  number = str(stephenli * ansonzhu)
-  bool4 = (ohio > "40")
+  number = str(integer1 * integer2)
+  bool4 = (number > "40")
   words = (f"Your numbers multiplied together are greater than 40: {bool4}")
   print (words)
 
