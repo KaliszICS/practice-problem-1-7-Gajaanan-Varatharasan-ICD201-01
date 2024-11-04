@@ -24,15 +24,15 @@ def q5():
 integer1 = int(input("Input an integer: "))
 integer2 = int(input("Input another integer: "))
 number = integer1 * integer2
-boolinput = (number > 40)
-words = (f"Your numbers multiplied together are greater than 40: {boolinput}")
-print(words)
+bool = number > 40
+sentence = (f"Your numbers multiplied together are greater than 40: {bool}")
+print(sentence)
 
 #Do edit the code below
 #Comment the lines below when running your tests
 
-#q1()
-#q2()
-#q3()
-#q4()
-#q5()
+# q1()
+# q2()
+# q3()
+# q4()
+# q5()
